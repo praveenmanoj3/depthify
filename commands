@@ -1,0 +1,7 @@
+#HOW TO RUN IT
+
+pip uninstall onnxruntime onnxruntime-directml -y
+pip install opencv-python numpy onnxruntime-directml
+cd %USERPROFILE%\Downloads
+python webcam_depth_igpu.py
+
